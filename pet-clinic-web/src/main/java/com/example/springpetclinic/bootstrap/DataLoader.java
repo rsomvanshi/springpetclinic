@@ -21,12 +21,10 @@ public class DataLoader implements CommandLineRunner {
     @Override
     public void run(String... args) throws Exception {
         Owner o1 = new Owner();
-        o1.setId(1L);
         o1.setFirstName("Rohan");
         o1.setLastName("Somvanshi");
 
         Owner o2 = new Owner();
-        o2.setId(2L);
         o2.setFirstName("Rahul");
         o2.setLastName("Somvanshi");
 
@@ -36,12 +34,10 @@ public class DataLoader implements CommandLineRunner {
         System.out.println("Loaded Owners ....");
 
         Vet v1 = new Vet();
-        v1.setId(1L);
         v1.setFirstName("XXX");
         v1.setLastName("YYY");
 
         Vet v2 = new Vet();
-        v2.setId(2L);
         v2.setFirstName("PPP");
         v2.setLastName("QQQ");
 
